@@ -9,18 +9,63 @@ header {
   padding: 20px;
 }
 
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+
+#navbar-toggler{
+  align-items: end;
+}
+
+
+.navbar-brand {
+  font-size: large;
+  font-weight: bold;
+}
+
+#nvitems{
+  text-align: right;
+}
+.navbar-nav{
+  text-align: right;
+}
+
+#navbarSupportedContent{
+  text-align: right;
+}
+
+#search-input {
+  width: 70%;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 0.5em;
+}
+
+#search-button {
+  padding: 0.5em 1em;
+  background-color: lightgray;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
 p{
   text-align: center;
 }
 
 .navbar {
+  border-radius: 20px;
   display: flex;
-  justify-content: flex-end;
+  padding: 10px;
 }
 
 .nav-menu {
   list-style: none;
-  display: flex;
+  
   margin: 0;
   padding: 0;
 }
